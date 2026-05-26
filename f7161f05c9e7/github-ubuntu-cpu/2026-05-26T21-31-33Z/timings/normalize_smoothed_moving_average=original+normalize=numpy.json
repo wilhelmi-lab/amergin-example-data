@@ -1,0 +1,126 @@
+[
+  {
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "load_ms": 0.906,
+    "execution_ms": 4.197,
+    "iterations_ms": [
+      4.197,
+      4.19,
+      4.224,
+      4.214,
+      4.148,
+      4.199,
+      4.157,
+      4.241,
+      4.194,
+      4.174
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "numpy"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "load_ms": 0.793,
+    "execution_ms": 4.014,
+    "iterations_ms": [
+      4.014,
+      3.998,
+      3.989,
+      3.992,
+      4.007,
+      4.018,
+      3.994,
+      4.092,
+      4.029,
+      4.021
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "numpy"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "load_ms": 0.968,
+    "execution_ms": 17.063,
+    "iterations_ms": [
+      17.124,
+      17.044,
+      17.017,
+      17.132,
+      17.063,
+      17.041,
+      17.043,
+      17.064,
+      17.044,
+      17.105
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "numpy"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "load_ms": 0.929,
+    "execution_ms": 16.996,
+    "iterations_ms": [
+      16.996,
+      16.958,
+      17.049,
+      16.935,
+      17.092,
+      16.991,
+      17.029,
+      16.936,
+      17.011,
+      16.936
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "numpy"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  }
+]
