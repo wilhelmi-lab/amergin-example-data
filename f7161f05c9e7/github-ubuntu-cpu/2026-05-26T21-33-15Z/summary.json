@@ -1,0 +1,1046 @@
+{
+  "schema_version": 1,
+  "source_hash": "f7161f05c9e7",
+  "machine_id": "github-ubuntu-cpu",
+  "timestamp": "2026-05-26T21-33-15Z",
+  "fingerprint_hash": "afc7955e44e3700f",
+  "amergin_version": "0.1.0.dev0",
+  "results": [
+    {
+      "fn_name": "clip_normalize",
+      "backend": "original",
+      "params": {
+        "size": 4096
+      },
+      "execution_ms_median": 0.012,
+      "execution_ms_p95": 0.014,
+      "load_ms": 0.84,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {
+        "fast_clip": true
+      },
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    },
+    {
+      "fn_name": "clip_normalize",
+      "backend": "original",
+      "params": {
+        "size": 16384
+      },
+      "execution_ms_median": 0.038,
+      "execution_ms_p95": 0.04,
+      "load_ms": 0.99,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {
+        "fast_clip": true
+      },
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    },
+    {
+      "fn_name": "clip_normalize",
+      "backend": "original__no_fast_clip",
+      "params": {
+        "size": 4096
+      },
+      "execution_ms_median": 7.807,
+      "execution_ms_p95": 7.918,
+      "load_ms": 0.843,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {
+        "fast_clip": false
+      },
+      "forced_capabilities": {
+        "fast_clip": false
+      },
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 0.0
+    },
+    {
+      "fn_name": "clip_normalize",
+      "backend": "original__no_fast_clip",
+      "params": {
+        "size": 16384
+      },
+      "execution_ms_median": 60.277,
+      "execution_ms_p95": 60.829,
+      "load_ms": 0.987,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {
+        "fast_clip": false
+      },
+      "forced_capabilities": {
+        "fast_clip": false
+      },
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 0.0
+    },
+    {
+      "fn_name": "moving_average",
+      "backend": "convolve",
+      "params": {
+        "size": 512,
+        "window": 8
+      },
+      "execution_ms_median": 0.006,
+      "execution_ms_p95": 0.01,
+      "load_ms": 0.789,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 2.220446049250313e-16
+    },
+    {
+      "fn_name": "moving_average",
+      "backend": "convolve",
+      "params": {
+        "size": 512,
+        "window": 64
+      },
+      "execution_ms_median": 0.011,
+      "execution_ms_p95": 0.021,
+      "load_ms": 0.796,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 2.220446049250313e-16
+    },
+    {
+      "fn_name": "moving_average",
+      "backend": "convolve",
+      "params": {
+        "size": 2048,
+        "window": 8
+      },
+      "execution_ms_median": 0.009,
+      "execution_ms_p95": 0.011,
+      "load_ms": 0.808,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 2.220446049250313e-16
+    },
+    {
+      "fn_name": "moving_average",
+      "backend": "convolve",
+      "params": {
+        "size": 2048,
+        "window": 64
+      },
+      "execution_ms_median": 0.032,
+      "execution_ms_p95": 0.034,
+      "load_ms": 0.801,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 2.220446049250313e-16
+    },
+    {
+      "fn_name": "moving_average",
+      "backend": "cumsum",
+      "params": {
+        "size": 512,
+        "window": 8
+      },
+      "execution_ms_median": 0.009,
+      "execution_ms_p95": 0.01,
+      "load_ms": 0.791,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 7.827072323607354e-15
+    },
+    {
+      "fn_name": "moving_average",
+      "backend": "cumsum",
+      "params": {
+        "size": 512,
+        "window": 64
+      },
+      "execution_ms_median": 0.009,
+      "execution_ms_p95": 0.011,
+      "load_ms": 0.791,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 2.9976021664879227e-15
+    },
+    {
+      "fn_name": "moving_average",
+      "backend": "cumsum",
+      "params": {
+        "size": 2048,
+        "window": 8
+      },
+      "execution_ms_median": 0.015,
+      "execution_ms_p95": 0.03,
+      "load_ms": 0.84,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 2.9976021664879227e-14
+    },
+    {
+      "fn_name": "moving_average",
+      "backend": "cumsum",
+      "params": {
+        "size": 2048,
+        "window": 64
+      },
+      "execution_ms_median": 0.015,
+      "execution_ms_p95": 0.016,
+      "load_ms": 0.817,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 7.605027718682322e-15
+    },
+    {
+      "fn_name": "moving_average",
+      "backend": "original",
+      "params": {
+        "size": 512,
+        "window": 8
+      },
+      "execution_ms_median": 2.747,
+      "execution_ms_p95": 2.929,
+      "load_ms": 0.794,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    },
+    {
+      "fn_name": "moving_average",
+      "backend": "original",
+      "params": {
+        "size": 512,
+        "window": 64
+      },
+      "execution_ms_median": 2.443,
+      "execution_ms_p95": 2.456,
+      "load_ms": 0.815,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    },
+    {
+      "fn_name": "moving_average",
+      "backend": "original",
+      "params": {
+        "size": 2048,
+        "window": 8
+      },
+      "execution_ms_median": 11.295,
+      "execution_ms_p95": 11.429,
+      "load_ms": 0.805,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    },
+    {
+      "fn_name": "moving_average",
+      "backend": "original",
+      "params": {
+        "size": 2048,
+        "window": 64
+      },
+      "execution_ms_median": 10.775,
+      "execution_ms_p95": 10.843,
+      "load_ms": 0.829,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    },
+    {
+      "fn_name": "normalize",
+      "backend": "numpy",
+      "params": {
+        "size": 1024
+      },
+      "execution_ms_median": 0.003,
+      "execution_ms_p95": 0.004,
+      "load_ms": 0.664,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 0.0
+    },
+    {
+      "fn_name": "normalize",
+      "backend": "numpy",
+      "params": {
+        "size": 4096
+      },
+      "execution_ms_median": 0.006,
+      "execution_ms_p95": 0.007,
+      "load_ms": 0.712,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 0.0
+    },
+    {
+      "fn_name": "normalize",
+      "backend": "numpy",
+      "params": {
+        "size": 16384
+      },
+      "execution_ms_median": 0.017,
+      "execution_ms_p95": 0.019,
+      "load_ms": 0.86,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 0.0
+    },
+    {
+      "fn_name": "normalize",
+      "backend": "original",
+      "params": {
+        "size": 1024
+      },
+      "execution_ms_median": 0.004,
+      "execution_ms_p95": 0.006,
+      "load_ms": 0.654,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    },
+    {
+      "fn_name": "normalize",
+      "backend": "original",
+      "params": {
+        "size": 4096
+      },
+      "execution_ms_median": 0.006,
+      "execution_ms_p95": 0.007,
+      "load_ms": 0.757,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    },
+    {
+      "fn_name": "normalize",
+      "backend": "original",
+      "params": {
+        "size": 16384
+      },
+      "execution_ms_median": 0.018,
+      "execution_ms_p95": 0.02,
+      "load_ms": 0.87,
+      "iterations_n": 10,
+      "discovered_calls": [],
+      "dispatched": {},
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=convolve+normalize=numpy",
+      "params": {
+        "size": 1024,
+        "window": 8
+      },
+      "execution_ms_median": 0.02,
+      "execution_ms_p95": 0.035,
+      "load_ms": 0.788,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "convolve",
+        "normalize": "numpy"
+      },
+      "capabilities": {
+        "convolve": true,
+        "cupy": false,
+        "numpy": true
+      },
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 1.3877787807814457e-17
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=convolve+normalize=numpy",
+      "params": {
+        "size": 1024,
+        "window": 64
+      },
+      "execution_ms_median": 0.032,
+      "execution_ms_p95": 0.046,
+      "load_ms": 0.806,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "convolve",
+        "normalize": "numpy"
+      },
+      "capabilities": {
+        "convolve": true,
+        "cupy": false,
+        "numpy": true
+      },
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 1.3877787807814457e-17
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=convolve+normalize=numpy",
+      "params": {
+        "size": 4096,
+        "window": 8
+      },
+      "execution_ms_median": 0.027,
+      "execution_ms_p95": 0.029,
+      "load_ms": 0.828,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "convolve",
+        "normalize": "numpy"
+      },
+      "capabilities": {
+        "convolve": true,
+        "cupy": false,
+        "numpy": true
+      },
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 6.938893903907228e-18
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=convolve+normalize=numpy",
+      "params": {
+        "size": 4096,
+        "window": 64
+      },
+      "execution_ms_median": 0.076,
+      "execution_ms_p95": 0.087,
+      "load_ms": 0.835,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "convolve",
+        "normalize": "numpy"
+      },
+      "capabilities": {
+        "convolve": true,
+        "cupy": false,
+        "numpy": true
+      },
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 6.938893903907228e-18
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=convolve+normalize=original",
+      "params": {
+        "size": 1024,
+        "window": 8
+      },
+      "execution_ms_median": 0.015,
+      "execution_ms_p95": 0.019,
+      "load_ms": 0.765,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "convolve",
+        "normalize": "original"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 1.3877787807814457e-17
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=convolve+normalize=original",
+      "params": {
+        "size": 1024,
+        "window": 64
+      },
+      "execution_ms_median": 0.026,
+      "execution_ms_p95": 0.03,
+      "load_ms": 0.778,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "convolve",
+        "normalize": "original"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 1.3877787807814457e-17
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=convolve+normalize=original",
+      "params": {
+        "size": 4096,
+        "window": 8
+      },
+      "execution_ms_median": 0.023,
+      "execution_ms_p95": 0.036,
+      "load_ms": 0.869,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "convolve",
+        "normalize": "original"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 6.938893903907228e-18
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=convolve+normalize=original",
+      "params": {
+        "size": 4096,
+        "window": 64
+      },
+      "execution_ms_median": 0.069,
+      "execution_ms_p95": 0.078,
+      "load_ms": 0.818,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "convolve",
+        "normalize": "original"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 6.938893903907228e-18
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=cumsum+normalize=numpy",
+      "params": {
+        "size": 1024,
+        "window": 8
+      },
+      "execution_ms_median": 0.02,
+      "execution_ms_p95": 0.022,
+      "load_ms": 0.792,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "cumsum",
+        "normalize": "numpy"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 1.1657341758564144e-15
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=cumsum+normalize=numpy",
+      "params": {
+        "size": 1024,
+        "window": 64
+      },
+      "execution_ms_median": 0.02,
+      "execution_ms_p95": 0.021,
+      "load_ms": 0.776,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "cumsum",
+        "normalize": "numpy"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 3.608224830031759e-16
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=cumsum+normalize=numpy",
+      "params": {
+        "size": 4096,
+        "window": 8
+      },
+      "execution_ms_median": 0.035,
+      "execution_ms_p95": 0.037,
+      "load_ms": 0.848,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "cumsum",
+        "normalize": "numpy"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 2.473715676742927e-15
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=cumsum+normalize=numpy",
+      "params": {
+        "size": 4096,
+        "window": 64
+      },
+      "execution_ms_median": 0.035,
+      "execution_ms_p95": 0.037,
+      "load_ms": 0.86,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "cumsum",
+        "normalize": "numpy"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 7.112366251504909e-16
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=cumsum+normalize=original",
+      "params": {
+        "size": 1024,
+        "window": 8
+      },
+      "execution_ms_median": 0.021,
+      "execution_ms_p95": 0.032,
+      "load_ms": 0.791,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "cumsum",
+        "normalize": "original"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 1.1657341758564144e-15
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=cumsum+normalize=original",
+      "params": {
+        "size": 1024,
+        "window": 64
+      },
+      "execution_ms_median": 0.019,
+      "execution_ms_p95": 0.022,
+      "load_ms": 0.769,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "cumsum",
+        "normalize": "original"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 3.608224830031759e-16
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=cumsum+normalize=original",
+      "params": {
+        "size": 4096,
+        "window": 8
+      },
+      "execution_ms_median": 0.034,
+      "execution_ms_p95": 0.037,
+      "load_ms": 0.844,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "cumsum",
+        "normalize": "original"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 2.473715676742927e-15
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=cumsum+normalize=original",
+      "params": {
+        "size": 4096,
+        "window": 64
+      },
+      "execution_ms_median": 0.034,
+      "execution_ms_p95": 0.036,
+      "load_ms": 0.824,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "cumsum",
+        "normalize": "original"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 7.112366251504909e-16
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=original+normalize=numpy",
+      "params": {
+        "size": 1024,
+        "window": 8
+      },
+      "execution_ms_median": 5.546,
+      "execution_ms_p95": 5.614,
+      "load_ms": 0.773,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "original",
+        "normalize": "numpy"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 0.0
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=original+normalize=numpy",
+      "params": {
+        "size": 1024,
+        "window": 64
+      },
+      "execution_ms_median": 5.222,
+      "execution_ms_p95": 5.459,
+      "load_ms": 0.779,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "original",
+        "normalize": "numpy"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 0.0
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=original+normalize=numpy",
+      "params": {
+        "size": 4096,
+        "window": 8
+      },
+      "execution_ms_median": 22.206,
+      "execution_ms_p95": 22.451,
+      "load_ms": 0.84,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "original",
+        "normalize": "numpy"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 0.0
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=original+normalize=numpy",
+      "params": {
+        "size": 4096,
+        "window": 64
+      },
+      "execution_ms_median": 22.268,
+      "execution_ms_p95": 22.37,
+      "load_ms": 0.81,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "original",
+        "normalize": "numpy"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": true,
+      "atol_max": 0.0
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=original+normalize=original",
+      "params": {
+        "size": 1024,
+        "window": 8
+      },
+      "execution_ms_median": 5.659,
+      "execution_ms_p95": 5.729,
+      "load_ms": 0.771,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "original",
+        "normalize": "original"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=original+normalize=original",
+      "params": {
+        "size": 1024,
+        "window": 64
+      },
+      "execution_ms_median": 5.402,
+      "execution_ms_p95": 5.63,
+      "load_ms": 0.774,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "original",
+        "normalize": "original"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=original+normalize=original",
+      "params": {
+        "size": 4096,
+        "window": 8
+      },
+      "execution_ms_median": 22.741,
+      "execution_ms_p95": 22.917,
+      "load_ms": 0.836,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "original",
+        "normalize": "original"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    },
+    {
+      "fn_name": "normalize_smoothed",
+      "backend": "moving_average=original+normalize=original",
+      "params": {
+        "size": 4096,
+        "window": 64
+      },
+      "execution_ms_median": 21.99,
+      "execution_ms_p95": 22.144,
+      "load_ms": 0.836,
+      "iterations_n": 10,
+      "discovered_calls": [
+        "moving_average",
+        "normalize"
+      ],
+      "dispatched": {
+        "moving_average": "original",
+        "normalize": "original"
+      },
+      "capabilities": {},
+      "forced_capabilities": {},
+      "impl_metadata": {},
+      "passed": null,
+      "atol_max": null
+    }
+  ]
+}
