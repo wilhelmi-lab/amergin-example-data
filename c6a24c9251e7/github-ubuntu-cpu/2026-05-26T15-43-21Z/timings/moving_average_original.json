@@ -1,0 +1,98 @@
+[
+  {
+    "params": {
+      "size": 512,
+      "window": 8
+    },
+    "load_ms": 1.144,
+    "execution_ms": 3.208,
+    "iterations_ms": [
+      3.184,
+      3.2,
+      3.208,
+      3.157,
+      3.189,
+      3.176,
+      6.349,
+      7.141,
+      6.932,
+      6.829
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 512,
+      "window": 64
+    },
+    "load_ms": 0.9,
+    "execution_ms": 2.691,
+    "iterations_ms": [
+      2.699,
+      2.684,
+      2.682,
+      2.696,
+      2.676,
+      2.688,
+      2.723,
+      2.682,
+      2.691,
+      2.696
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 2048,
+      "window": 8
+    },
+    "load_ms": 0.907,
+    "execution_ms": 12.212,
+    "iterations_ms": [
+      12.49,
+      12.357,
+      12.287,
+      12.179,
+      12.152,
+      12.177,
+      12.163,
+      12.33,
+      12.181,
+      12.212
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 2048,
+      "window": 64
+    },
+    "load_ms": 0.93,
+    "execution_ms": 11.731,
+    "iterations_ms": [
+      12.063,
+      12.088,
+      12.476,
+      11.626,
+      11.633,
+      11.66,
+      11.648,
+      11.731,
+      11.781,
+      11.675
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {}
+  }
+]

@@ -2,12 +2,12 @@
   {
     "name": "clip_normalize/original",
     "unit": "ms",
-    "value": 0.032
+    "value": 0.033
   },
   {
     "name": "clip_normalize/original__no_fast_clip",
     "unit": "ms",
-    "value": 54.67
+    "value": 58.131
   },
   {
     "name": "moving_average/convolve",
@@ -22,7 +22,7 @@
   {
     "name": "moving_average/original",
     "unit": "ms",
-    "value": 11.588
+    "value": 11.731
   },
   {
     "name": "normalize/numpy",
@@ -37,17 +37,17 @@
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=numpy",
     "unit": "ms",
-    "value": 0.041
+    "value": 0.039
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=original",
     "unit": "ms",
-    "value": 0.03
+    "value": 0.029
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=numpy",
     "unit": "ms",
-    "value": 0.04
+    "value": 0.039
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=original",
@@ -57,11 +57,11 @@
   {
     "name": "normalize_smoothed/moving_average=original+normalize=numpy",
     "unit": "ms",
-    "value": 23.646
+    "value": 24.489
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=original",
     "unit": "ms",
-    "value": 23.804
+    "value": 24.092
   }
 ]
