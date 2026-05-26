@@ -1,0 +1,122 @@
+[
+  {
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "load_ms": 0.865,
+    "execution_ms": 5.93,
+    "iterations_ms": [
+      5.981,
+      5.977,
+      5.951,
+      5.9,
+      5.899,
+      5.945,
+      5.926,
+      5.93,
+      5.889,
+      5.921
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "load_ms": 0.831,
+    "execution_ms": 5.708,
+    "iterations_ms": [
+      5.711,
+      5.709,
+      6.104,
+      5.708,
+      5.694,
+      5.695,
+      5.69,
+      5.708,
+      5.755,
+      5.695
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "load_ms": 0.852,
+    "execution_ms": 23.603,
+    "iterations_ms": [
+      23.603,
+      23.631,
+      23.524,
+      23.547,
+      23.771,
+      23.651,
+      23.662,
+      23.597,
+      23.55,
+      23.508
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "load_ms": 1.096,
+    "execution_ms": 23.777,
+    "iterations_ms": [
+      23.772,
+      23.682,
+      24.077,
+      23.83,
+      23.626,
+      23.872,
+      24.104,
+      23.777,
+      23.75,
+      23.701
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  }
+]

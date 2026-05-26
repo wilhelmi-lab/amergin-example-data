@@ -1,0 +1,122 @@
+[
+  {
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "load_ms": 0.816,
+    "execution_ms": 6.003,
+    "iterations_ms": [
+      6.14,
+      6.017,
+      5.978,
+      6.003,
+      6.003,
+      5.99,
+      6.01,
+      5.958,
+      5.973,
+      5.934
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "numpy"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "load_ms": 0.804,
+    "execution_ms": 5.749,
+    "iterations_ms": [
+      5.662,
+      5.777,
+      5.724,
+      5.78,
+      5.719,
+      5.762,
+      5.763,
+      5.717,
+      5.731,
+      5.749
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "numpy"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "load_ms": 0.846,
+    "execution_ms": 24.161,
+    "iterations_ms": [
+      24.157,
+      24.165,
+      24.368,
+      24.138,
+      24.129,
+      24.402,
+      24.09,
+      24.202,
+      24.119,
+      24.161
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "numpy"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "load_ms": 0.831,
+    "execution_ms": 23.904,
+    "iterations_ms": [
+      23.86,
+      23.875,
+      23.726,
+      24.014,
+      23.904,
+      24.006,
+      24.055,
+      23.94,
+      23.632,
+      23.793
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "numpy"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  }
+]
