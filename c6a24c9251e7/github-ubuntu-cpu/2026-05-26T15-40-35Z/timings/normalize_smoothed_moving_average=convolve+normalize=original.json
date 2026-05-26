@@ -1,0 +1,122 @@
+[
+  {
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "load_ms": 0.909,
+    "execution_ms": 0.018,
+    "iterations_ms": [
+      0.022,
+      0.031,
+      0.02,
+      0.018,
+      0.017,
+      0.017,
+      0.017,
+      0.016,
+      0.018,
+      0.017
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "convolve",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "load_ms": 0.923,
+    "execution_ms": 0.03,
+    "iterations_ms": [
+      0.032,
+      0.038,
+      0.03,
+      0.029,
+      0.029,
+      0.049,
+      0.035,
+      0.03,
+      0.03,
+      0.029
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "convolve",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "load_ms": 0.975,
+    "execution_ms": 0.026,
+    "iterations_ms": [
+      0.028,
+      0.033,
+      0.026,
+      0.026,
+      0.026,
+      0.025,
+      0.025,
+      0.025,
+      0.025,
+      0.025
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "convolve",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "load_ms": 0.952,
+    "execution_ms": 0.083,
+    "iterations_ms": [
+      0.085,
+      0.083,
+      0.083,
+      0.076,
+      0.081,
+      0.075,
+      0.08,
+      0.075,
+      0.112,
+      0.091
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "convolve",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  }
+]

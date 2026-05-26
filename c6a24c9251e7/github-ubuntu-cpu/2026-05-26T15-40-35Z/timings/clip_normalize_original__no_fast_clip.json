@@ -1,0 +1,56 @@
+[
+  {
+    "params": {
+      "size": 4096
+    },
+    "load_ms": 0.982,
+    "execution_ms": 9.051,
+    "iterations_ms": [
+      8.994,
+      8.989,
+      9.06,
+      9.037,
+      9.055,
+      9.135,
+      9.025,
+      9.051,
+      9.093,
+      9.023
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {
+      "fast_clip": false
+    },
+    "forced_capabilities": {
+      "fast_clip": false
+    }
+  },
+  {
+    "params": {
+      "size": 16384
+    },
+    "load_ms": 1.2,
+    "execution_ms": 54.67,
+    "iterations_ms": [
+      54.537,
+      54.803,
+      54.575,
+      54.674,
+      54.633,
+      54.65,
+      54.68,
+      54.56,
+      54.67,
+      54.701
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {
+      "fast_clip": false
+    },
+    "forced_capabilities": {
+      "fast_clip": false
+    }
+  }
+]

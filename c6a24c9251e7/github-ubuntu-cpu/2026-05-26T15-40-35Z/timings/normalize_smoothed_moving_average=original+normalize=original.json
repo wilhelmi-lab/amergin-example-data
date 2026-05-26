@@ -1,0 +1,122 @@
+[
+  {
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "load_ms": 0.9,
+    "execution_ms": 5.931,
+    "iterations_ms": [
+      5.953,
+      5.953,
+      5.905,
+      5.931,
+      5.933,
+      5.933,
+      5.897,
+      5.917,
+      5.917,
+      5.913
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "load_ms": 0.941,
+    "execution_ms": 5.686,
+    "iterations_ms": [
+      5.67,
+      5.699,
+      5.679,
+      6.02,
+      5.743,
+      5.686,
+      5.661,
+      5.689,
+      5.683,
+      5.678
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "load_ms": 1.015,
+    "execution_ms": 24.671,
+    "iterations_ms": [
+      24.671,
+      24.731,
+      24.668,
+      24.694,
+      24.614,
+      24.655,
+      24.574,
+      24.775,
+      24.79,
+      24.573
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "load_ms": 0.93,
+    "execution_ms": 23.804,
+    "iterations_ms": [
+      23.803,
+      23.935,
+      23.925,
+      23.701,
+      23.726,
+      23.877,
+      23.762,
+      23.758,
+      23.804,
+      23.83
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {}
+  }
+]
