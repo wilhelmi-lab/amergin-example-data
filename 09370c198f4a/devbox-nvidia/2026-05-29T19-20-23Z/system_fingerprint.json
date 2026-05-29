@@ -1,0 +1,15 @@
+{
+  "os": "Linux",
+  "os_version": "#88~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Oct 14 14:03:14 UTC 2",
+  "machine": "x86_64",
+  "python": "3.10.12",
+  "cpu": "x86_64",
+  "gpu": [
+    {
+      "lib": "cupy",
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "index": 0
+    }
+  ],
+  "hash": "3535d224cf388a4f"
+}
