@@ -1,0 +1,126 @@
+[
+  {
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "load_ms": 0.899,
+    "execution_ms": 5.441,
+    "iterations_ms": [
+      5.433,
+      5.446,
+      5.441,
+      5.463,
+      5.417,
+      5.458,
+      5.432,
+      5.421,
+      5.47,
+      5.425
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "load_ms": 0.887,
+    "execution_ms": 5.266,
+    "iterations_ms": [
+      5.268,
+      5.353,
+      5.253,
+      5.244,
+      5.246,
+      5.267,
+      5.315,
+      5.266,
+      5.257,
+      5.262
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "load_ms": 0.901,
+    "execution_ms": 21.859,
+    "iterations_ms": [
+      21.749,
+      21.862,
+      21.912,
+      21.815,
+      21.882,
+      21.859,
+      21.929,
+      21.8,
+      21.85,
+      21.819
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "load_ms": 0.923,
+    "execution_ms": 21.597,
+    "iterations_ms": [
+      21.588,
+      21.719,
+      21.719,
+      21.61,
+      21.587,
+      21.585,
+      21.658,
+      21.597,
+      21.574,
+      21.471
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "original",
+      "normalize": "original"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  }
+]
