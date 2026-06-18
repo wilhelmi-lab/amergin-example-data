@@ -1,0 +1,9 @@
+{
+  "os": "Linux",
+  "os_version": "#18~24.04.1-Ubuntu SMP Thu May 28 16:39:11 UTC 2026",
+  "machine": "x86_64",
+  "python": "3.12.13",
+  "cpu": "x86_64",
+  "gpu": [],
+  "hash": "6ae54ad655417543"
+}
