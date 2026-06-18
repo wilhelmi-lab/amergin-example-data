@@ -1,0 +1,102 @@
+[
+  {
+    "params": {
+      "size": 512,
+      "window": 8
+    },
+    "load_ms": 0.936,
+    "execution_ms": 2.903,
+    "iterations_ms": [
+      2.829,
+      2.879,
+      2.977,
+      2.889,
+      2.897,
+      3.069,
+      2.866,
+      2.903,
+      2.905,
+      2.985
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 512,
+      "window": 64
+    },
+    "load_ms": 0.838,
+    "execution_ms": 2.938,
+    "iterations_ms": [
+      2.979,
+      2.962,
+      2.979,
+      2.992,
+      2.938,
+      2.885,
+      2.824,
+      2.768,
+      2.931,
+      2.77
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 2048,
+      "window": 8
+    },
+    "load_ms": 0.953,
+    "execution_ms": 12.74,
+    "iterations_ms": [
+      13.375,
+      12.749,
+      12.197,
+      12.238,
+      12.233,
+      13.203,
+      12.592,
+      12.881,
+      12.74,
+      12.091
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 2048,
+      "window": 64
+    },
+    "load_ms": 0.839,
+    "execution_ms": 12.289,
+    "iterations_ms": [
+      11.939,
+      12.289,
+      13.515,
+      11.885,
+      12.327,
+      12.997,
+      12.709,
+      11.941,
+      12.024,
+      11.815
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  }
+]

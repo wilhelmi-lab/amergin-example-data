@@ -1,0 +1,149 @@
+[
+  {
+    "fn_name": "normalize",
+    "backend": "cupy",
+    "params": {
+      "size": 1024
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize",
+    "backend": "cupy",
+    "params": {
+      "size": 4096
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize",
+    "backend": "cupy",
+    "params": {
+      "size": 16384
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=original+normalize=cupy",
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=convolve+normalize=cupy",
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=cumsum+normalize=cupy",
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=original+normalize=cupy",
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=convolve+normalize=cupy",
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=cumsum+normalize=cupy",
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=original+normalize=cupy",
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=convolve+normalize=cupy",
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=cumsum+normalize=cupy",
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=original+normalize=cupy",
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=convolve+normalize=cupy",
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=cumsum+normalize=cupy",
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026ore/_kernel.pyx\", line 1098, in cupy._core._kernel._get_ufunc_kernel\n  File \"cupy/_core/_kernel.pyx\", line 124, in cupy._core._kernel._get_simple_elementwise_kernel\n  File \"cupy/_core/_kernel.pyx\", line 112, in cupy._core._kernel._get_simple_elementwise_kernel_from_code\n  File \"cupy/_core/core.pyx\", line 2590, in cupy._core.core.compile_with_cache\n  File \"cupy/_core/core.pyx\", line 2552, in cupy._core.core.assemble_cupy_compiler_options\nRuntimeError: Failed to find CUDA headers. Please install CUDA toolkit headers (e.g., pip install cupy-cuda12x[ctk]) or specify CUDA_PATH environment variable."
+  }
+]
