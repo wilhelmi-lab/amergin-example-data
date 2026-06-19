@@ -2,27 +2,27 @@
   {
     "name": "clip_normalize/original",
     "unit": "ms",
-    "value": 0.177
+    "value": 0.185
   },
   {
     "name": "clip_normalize/original__no_fast_clip",
     "unit": "ms",
-    "value": 132.948
+    "value": 133.144
   },
   {
     "name": "moving_average/convolve",
     "unit": "ms",
-    "value": 0.012
+    "value": 0.013
   },
   {
     "name": "moving_average/cumsum",
     "unit": "ms",
-    "value": 0.016
+    "value": 0.015
   },
   {
     "name": "moving_average/original",
     "unit": "ms",
-    "value": 10.594
+    "value": 10.172
   },
   {
     "name": "normalize/numpy",
@@ -37,51 +37,51 @@
   {
     "name": "normalize/torch",
     "unit": "ms",
-    "value": 0.047
+    "value": 0.044
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=numpy",
     "unit": "ms",
-    "value": 0.043
+    "value": 0.042
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=original",
     "unit": "ms",
-    "value": 0.039
+    "value": 0.044
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=torch",
     "unit": "ms",
-    "value": 0.112
+    "value": 0.078
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=numpy",
     "unit": "ms",
-    "value": 0.042
+    "value": 0.055
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=original",
     "unit": "ms",
-    "value": 0.038
+    "value": 0.04
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=torch",
     "unit": "ms",
-    "value": 0.104
+    "value": 0.099
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=numpy",
     "unit": "ms",
-    "value": 21.392
+    "value": 20.177
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=original",
     "unit": "ms",
-    "value": 20.524
+    "value": 20.597
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=torch",
     "unit": "ms",
-    "value": 20.241
+    "value": 19.719
   }
 ]
