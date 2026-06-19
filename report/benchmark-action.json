@@ -2,12 +2,12 @@
   {
     "name": "clip_normalize/original",
     "unit": "ms",
-    "value": 0.077
+    "value": 0.078
   },
   {
     "name": "clip_normalize/original__no_fast_clip",
     "unit": "ms",
-    "value": 71.058
+    "value": 74.226
   },
   {
     "name": "moving_average/convolve",
@@ -17,12 +17,12 @@
   {
     "name": "moving_average/cumsum",
     "unit": "ms",
-    "value": 0.015
+    "value": 0.014
   },
   {
     "name": "moving_average/original",
     "unit": "ms",
-    "value": 10.028
+    "value": 10.128
   },
   {
     "name": "normalize/numpy",
@@ -32,56 +32,56 @@
   {
     "name": "normalize/original",
     "unit": "ms",
-    "value": 0.009
+    "value": 0.007
   },
   {
     "name": "normalize/torch",
     "unit": "ms",
-    "value": 0.147
+    "value": 0.174
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=numpy",
     "unit": "ms",
-    "value": 0.052
+    "value": 0.061
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=original",
     "unit": "ms",
-    "value": 0.041
+    "value": 0.044
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=torch",
     "unit": "ms",
-    "value": 0.195
+    "value": 0.189
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=numpy",
     "unit": "ms",
-    "value": 0.041
+    "value": 0.039
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=original",
     "unit": "ms",
-    "value": 0.04
+    "value": 0.039
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=torch",
     "unit": "ms",
-    "value": 0.197
+    "value": 0.195
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=numpy",
     "unit": "ms",
-    "value": 20.337
+    "value": 21.0
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=original",
     "unit": "ms",
-    "value": 20.218
+    "value": 21.319
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=torch",
     "unit": "ms",
-    "value": 21.373
+    "value": 20.187
   }
 ]

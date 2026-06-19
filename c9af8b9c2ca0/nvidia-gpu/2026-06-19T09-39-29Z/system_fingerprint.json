@@ -1,0 +1,16 @@
+{
+  "os": "Linux",
+  "os_version": "#88~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Oct 14 14:03:14 UTC 2",
+  "machine": "x86_64",
+  "python": "3.11.14",
+  "cpu": "x86_64",
+  "gpu": [
+    {
+      "lib": "torch",
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "index": 0
+    }
+  ],
+  "hash": "b03a5b6f1dab9dc8",
+  "stable_hash": "6b29ca6375d5bacb"
+}
