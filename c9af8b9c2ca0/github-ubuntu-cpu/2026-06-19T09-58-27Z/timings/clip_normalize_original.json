@@ -1,0 +1,54 @@
+[
+  {
+    "params": {
+      "size": 4096
+    },
+    "load_ms": 0.973,
+    "execution_ms": 0.012,
+    "iterations_ms": [
+      0.015,
+      0.015,
+      0.013,
+      0.012,
+      0.012,
+      0.012,
+      0.012,
+      0.012,
+      0.013,
+      0.012
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {
+      "fast_clip": true
+    },
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 16384
+    },
+    "load_ms": 1.282,
+    "execution_ms": 5.997,
+    "iterations_ms": [
+      5.996,
+      1.749,
+      4.239,
+      6.008,
+      5.992,
+      5.997,
+      5.999,
+      6.004,
+      5.993,
+      5.997
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {
+      "fast_clip": true
+    },
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  }
+]
