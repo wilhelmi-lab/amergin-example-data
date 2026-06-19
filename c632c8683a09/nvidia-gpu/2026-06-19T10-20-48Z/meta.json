@@ -1,0 +1,8 @@
+{
+  "target_module": "numops",
+  "source_hash": "c632c8683a09",
+  "machine_id": "nvidia-gpu",
+  "timestamp": "2026-06-19T10-20-48Z",
+  "fingerprint_hash": "b03a5b6f1dab9dc8",
+  "amergin_version": "0.1.0.dev0"
+}
