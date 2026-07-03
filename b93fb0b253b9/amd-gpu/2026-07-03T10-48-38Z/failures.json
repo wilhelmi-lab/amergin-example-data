@@ -1,0 +1,149 @@
+[
+  {
+    "fn_name": "normalize",
+    "backend": "torch",
+    "params": {
+      "size": 1024
+    },
+    "stage": "benchmark",
+    "error": "\u2026vs/py_3.12/lib/python3.12/site-packages/amergin/_workers/benchmark.py\", line 172, in main\n    result = fn(**kwargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize",
+    "backend": "torch",
+    "params": {
+      "size": 4096
+    },
+    "stage": "benchmark",
+    "error": "\u2026vs/py_3.12/lib/python3.12/site-packages/amergin/_workers/benchmark.py\", line 172, in main\n    result = fn(**kwargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize",
+    "backend": "torch",
+    "params": {
+      "size": 16384
+    },
+    "stage": "benchmark",
+    "error": "\u2026vs/py_3.12/lib/python3.12/site-packages/amergin/_workers/benchmark.py\", line 172, in main\n    result = fn(**kwargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=original+normalize=torch",
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026b/python3.12/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=convolve+normalize=torch",
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026b/python3.12/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=cumsum+normalize=torch",
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026b/python3.12/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=original+normalize=torch",
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026b/python3.12/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=convolve+normalize=torch",
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026b/python3.12/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=cumsum+normalize=torch",
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026b/python3.12/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=original+normalize=torch",
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026b/python3.12/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=convolve+normalize=torch",
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026b/python3.12/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=cumsum+normalize=torch",
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026b/python3.12/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=original+normalize=torch",
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026b/python3.12/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=convolve+normalize=torch",
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026b/python3.12/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=cumsum+normalize=torch",
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026b/python3.12/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HIP error: invalid device function\nHIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing AMD_SERIALIZE_KERNEL=3\nCompile with `TORCH_USE_HIP_DSA` to enable device-side assertions."
+  }
+]

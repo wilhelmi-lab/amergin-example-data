@@ -2,17 +2,17 @@
   {
     "name": "clip_normalize/original",
     "unit": "ms",
-    "value": 0.185
+    "value": 0.057
   },
   {
     "name": "clip_normalize/original__no_fast_clip",
     "unit": "ms",
-    "value": 133.144
+    "value": 31.528
   },
   {
     "name": "moving_average/convolve",
     "unit": "ms",
-    "value": 0.013
+    "value": 0.02
   },
   {
     "name": "moving_average/cumsum",
@@ -22,66 +22,46 @@
   {
     "name": "moving_average/original",
     "unit": "ms",
-    "value": 10.172
+    "value": 9.758
   },
   {
     "name": "normalize/numpy",
     "unit": "ms",
-    "value": 0.006
+    "value": 0.009
   },
   {
     "name": "normalize/original",
     "unit": "ms",
-    "value": 0.007
-  },
-  {
-    "name": "normalize/torch",
-    "unit": "ms",
-    "value": 0.044
+    "value": 0.01
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=numpy",
     "unit": "ms",
-    "value": 0.042
+    "value": 0.052
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=original",
     "unit": "ms",
-    "value": 0.044
-  },
-  {
-    "name": "normalize_smoothed/moving_average=convolve+normalize=torch",
-    "unit": "ms",
-    "value": 0.078
+    "value": 0.052
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=numpy",
     "unit": "ms",
-    "value": 0.055
+    "value": 0.04
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=original",
     "unit": "ms",
-    "value": 0.04
-  },
-  {
-    "name": "normalize_smoothed/moving_average=cumsum+normalize=torch",
-    "unit": "ms",
-    "value": 0.099
+    "value": 0.043
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=numpy",
     "unit": "ms",
-    "value": 20.177
+    "value": 20.194
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=original",
     "unit": "ms",
-    "value": 20.597
-  },
-  {
-    "name": "normalize_smoothed/moving_average=original+normalize=torch",
-    "unit": "ms",
-    "value": 19.719
+    "value": 20.793
   }
 ]
