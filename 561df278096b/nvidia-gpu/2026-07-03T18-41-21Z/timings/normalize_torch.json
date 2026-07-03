@@ -1,0 +1,86 @@
+[
+  {
+    "params": {
+      "size": 1024
+    },
+    "load_ms": 0.623,
+    "execution_ms": 0.114,
+    "iterations_ms": [
+      0.123,
+      0.136,
+      0.126,
+      0.11,
+      0.128,
+      0.106,
+      0.097,
+      0.105,
+      0.107,
+      0.114
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.9.1+cu126",
+      "device": "cuda",
+      "device_name": "NVIDIA GeForce RTX 2080 Ti"
+    }
+  },
+  {
+    "params": {
+      "size": 4096
+    },
+    "load_ms": 0.765,
+    "execution_ms": 0.148,
+    "iterations_ms": [
+      0.17,
+      0.143,
+      0.141,
+      0.145,
+      0.153,
+      0.159,
+      0.15,
+      0.142,
+      0.148,
+      0.116
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.9.1+cu126",
+      "device": "cuda",
+      "device_name": "NVIDIA GeForce RTX 2080 Ti"
+    }
+  },
+  {
+    "params": {
+      "size": 16384
+    },
+    "load_ms": 1.004,
+    "execution_ms": 0.283,
+    "iterations_ms": [
+      0.297,
+      0.289,
+      0.314,
+      0.283,
+      0.3,
+      0.203,
+      0.2,
+      0.269,
+      0.281,
+      0.282
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.9.1+cu126",
+      "device": "cuda",
+      "device_name": "NVIDIA GeForce RTX 2080 Ti"
+    }
+  }
+]

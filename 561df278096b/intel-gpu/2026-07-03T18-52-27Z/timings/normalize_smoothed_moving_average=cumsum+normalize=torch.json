@@ -1,0 +1,126 @@
+[
+  {
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "load_ms": 0.45,
+    "execution_ms": 0.526,
+    "iterations_ms": [
+      0.543,
+      0.507,
+      0.682,
+      0.511,
+      0.526,
+      1.277,
+      0.521,
+      0.499,
+      0.534,
+      0.498
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "cumsum",
+      "normalize": "torch"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "load_ms": 0.45,
+    "execution_ms": 0.514,
+    "iterations_ms": [
+      0.669,
+      0.5,
+      0.497,
+      0.533,
+      0.498,
+      1.019,
+      0.563,
+      0.502,
+      0.514,
+      0.479
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "cumsum",
+      "normalize": "torch"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "load_ms": 0.536,
+    "execution_ms": 0.557,
+    "iterations_ms": [
+      0.557,
+      0.759,
+      0.53,
+      0.511,
+      0.635,
+      1.09,
+      0.509,
+      0.762,
+      0.507,
+      0.5
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "cumsum",
+      "normalize": "torch"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "load_ms": 0.586,
+    "execution_ms": 0.538,
+    "iterations_ms": [
+      0.562,
+      0.542,
+      0.537,
+      0.532,
+      0.542,
+      1.3,
+      0.538,
+      0.538,
+      0.528,
+      0.507
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "cumsum",
+      "normalize": "torch"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  }
+]

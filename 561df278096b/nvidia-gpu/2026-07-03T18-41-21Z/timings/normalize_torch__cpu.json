@@ -1,0 +1,83 @@
+[
+  {
+    "params": {
+      "size": 1024
+    },
+    "load_ms": 0.641,
+    "execution_ms": 0.082,
+    "iterations_ms": [
+      0.118,
+      0.085,
+      0.096,
+      0.077,
+      0.096,
+      0.082,
+      0.077,
+      0.074,
+      0.075,
+      0.074
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.9.1+cu126",
+      "device": "cpu"
+    }
+  },
+  {
+    "params": {
+      "size": 4096
+    },
+    "load_ms": 0.752,
+    "execution_ms": 0.025,
+    "iterations_ms": [
+      0.029,
+      0.026,
+      0.025,
+      0.024,
+      0.03,
+      0.025,
+      0.024,
+      0.024,
+      0.024,
+      0.023
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.9.1+cu126",
+      "device": "cpu"
+    }
+  },
+  {
+    "params": {
+      "size": 16384
+    },
+    "load_ms": 1.079,
+    "execution_ms": 0.129,
+    "iterations_ms": [
+      0.051,
+      0.044,
+      0.129,
+      0.133,
+      0.136,
+      0.133,
+      0.129,
+      0.041,
+      0.041,
+      0.041
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.9.1+cu126",
+      "device": "cpu"
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "params": {
+      "size": 1024
+    },
+    "load_ms": 0.809,
+    "execution_ms": 0.068,
+    "iterations_ms": [
+      0.09,
+      0.092,
+      0.071,
+      0.068,
+      0.066,
+      0.066,
+      0.065,
+      0.065,
+      0.068,
+      0.065
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.7.1+git99ccf24",
+      "hip_version": "6.4.43484-123eb5128",
+      "device": "cpu"
+    }
+  },
+  {
+    "params": {
+      "size": 4096
+    },
+    "load_ms": 0.992,
+    "execution_ms": 0.022,
+    "iterations_ms": [
+      0.051,
+      0.049,
+      0.024,
+      0.022,
+      0.022,
+      0.022,
+      0.022,
+      0.022,
+      0.023,
+      0.022
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.7.1+git99ccf24",
+      "hip_version": "6.4.43484-123eb5128",
+      "device": "cpu"
+    }
+  },
+  {
+    "params": {
+      "size": 16384
+    },
+    "load_ms": 1.248,
+    "execution_ms": 0.037,
+    "iterations_ms": [
+      0.128,
+      0.136,
+      0.039,
+      0.037,
+      0.037,
+      0.036,
+      0.036,
+      0.036,
+      0.037,
+      0.036
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.7.1+git99ccf24",
+      "hip_version": "6.4.43484-123eb5128",
+      "device": "cpu"
+    }
+  }
+]
