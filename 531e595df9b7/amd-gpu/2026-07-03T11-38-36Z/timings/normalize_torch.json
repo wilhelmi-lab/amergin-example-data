@@ -1,0 +1,89 @@
+[
+  {
+    "params": {
+      "size": 1024
+    },
+    "load_ms": 0.689,
+    "execution_ms": 0.127,
+    "iterations_ms": [
+      0.16,
+      0.129,
+      0.142,
+      0.126,
+      0.127,
+      0.118,
+      0.131,
+      0.125,
+      0.122,
+      0.122
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.7.1+git99ccf24",
+      "hip_version": "6.4.43484-123eb5128",
+      "device": "cuda",
+      "device_name": "AMD Instinct MI100"
+    }
+  },
+  {
+    "params": {
+      "size": 4096
+    },
+    "load_ms": 0.821,
+    "execution_ms": 0.147,
+    "iterations_ms": [
+      0.187,
+      0.147,
+      0.157,
+      0.149,
+      0.133,
+      0.138,
+      0.152,
+      0.144,
+      0.141,
+      0.137
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.7.1+git99ccf24",
+      "hip_version": "6.4.43484-123eb5128",
+      "device": "cuda",
+      "device_name": "AMD Instinct MI100"
+    }
+  },
+  {
+    "params": {
+      "size": 16384
+    },
+    "load_ms": 1.059,
+    "execution_ms": 0.194,
+    "iterations_ms": [
+      0.214,
+      0.196,
+      0.204,
+      0.204,
+      0.181,
+      0.182,
+      0.188,
+      0.186,
+      0.194,
+      0.181
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.7.1+git99ccf24",
+      "hip_version": "6.4.43484-123eb5128",
+      "device": "cuda",
+      "device_name": "AMD Instinct MI100"
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "target_module": "numops",
+  "source_hash": "531e595df9b7",
+  "machine_id": "intel-gpu",
+  "timestamp": "2026-07-03T11-46-55Z",
+  "fingerprint_hash": "dd2e867235917121",
+  "amergin_version": "0.1.0.dev0"
+}

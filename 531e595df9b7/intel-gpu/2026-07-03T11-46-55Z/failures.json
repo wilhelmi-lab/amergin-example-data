@@ -1,0 +1,149 @@
+[
+  {
+    "fn_name": "normalize",
+    "backend": "torch",
+    "params": {
+      "size": 1024
+    },
+    "stage": "benchmark",
+    "error": "\u2026unpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_workers/benchmark.py\", line 284, in <module>\n    main()\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_workers/benchmark.py\", line 172, in main\n    result = fn(**kwargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize",
+    "backend": "torch",
+    "params": {
+      "size": 4096
+    },
+    "stage": "benchmark",
+    "error": "\u2026unpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_workers/benchmark.py\", line 284, in <module>\n    main()\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_workers/benchmark.py\", line 172, in main\n    result = fn(**kwargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize",
+    "backend": "torch",
+    "params": {
+      "size": 16384
+    },
+    "stage": "benchmark",
+    "error": "\u2026unpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_workers/benchmark.py\", line 284, in <module>\n    main()\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_workers/benchmark.py\", line 172, in main\n    result = fn(**kwargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=original+normalize=torch",
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026wargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/pipelines.py\", line 20, in normalize_smoothed\n    return normalize(smoothed)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=convolve+normalize=torch",
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026wargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/pipelines.py\", line 20, in normalize_smoothed\n    return normalize(smoothed)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=cumsum+normalize=torch",
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026wargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/pipelines.py\", line 20, in normalize_smoothed\n    return normalize(smoothed)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=original+normalize=torch",
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026wargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/pipelines.py\", line 20, in normalize_smoothed\n    return normalize(smoothed)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=convolve+normalize=torch",
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026wargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/pipelines.py\", line 20, in normalize_smoothed\n    return normalize(smoothed)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=cumsum+normalize=torch",
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026wargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/pipelines.py\", line 20, in normalize_smoothed\n    return normalize(smoothed)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=original+normalize=torch",
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026wargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/pipelines.py\", line 20, in normalize_smoothed\n    return normalize(smoothed)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=convolve+normalize=torch",
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026wargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/pipelines.py\", line 20, in normalize_smoothed\n    return normalize(smoothed)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=cumsum+normalize=torch",
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "stage": "benchmark",
+    "error": "\u2026wargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/pipelines.py\", line 20, in normalize_smoothed\n    return normalize(smoothed)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=original+normalize=torch",
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026wargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/pipelines.py\", line 20, in normalize_smoothed\n    return normalize(smoothed)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=convolve+normalize=torch",
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026wargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/pipelines.py\", line 20, in normalize_smoothed\n    return normalize(smoothed)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  },
+  {
+    "fn_name": "normalize_smoothed",
+    "backend": "moving_average=cumsum+normalize=torch",
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "stage": "benchmark",
+    "error": "\u2026wargs)\n             ^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/pipelines.py\", line 20, in normalize_smoothed\n    return normalize(smoothed)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/idp/lib/python3.11/site-packages/amergin/_dispatch.py\", line 83, in _dispatch\n    return alt.fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/amergin-example/amergin-example/src/numops/processing.py\", line 63, in normalize_torch\n    out = t / torch.linalg.norm(t)\n              ^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Kernel is incompatible with all devices in devs"
+  }
+]
