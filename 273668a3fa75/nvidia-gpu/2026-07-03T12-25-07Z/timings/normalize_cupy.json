@@ -1,0 +1,86 @@
+[
+  {
+    "params": {
+      "size": 1024
+    },
+    "load_ms": 0.629,
+    "execution_ms": 0.139,
+    "iterations_ms": [
+      0.145,
+      0.138,
+      0.154,
+      0.137,
+      0.157,
+      0.133,
+      0.129,
+      0.127,
+      0.139,
+      0.14
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "vram_used_gb": 0.158,
+      "vram_total_gb": 10.568,
+      "device_name": "NVIDIA GeForce RTX 2080 Ti"
+    }
+  },
+  {
+    "params": {
+      "size": 4096
+    },
+    "load_ms": 0.692,
+    "execution_ms": 0.157,
+    "iterations_ms": [
+      0.165,
+      0.165,
+      0.157,
+      0.15,
+      0.174,
+      0.153,
+      0.149,
+      0.145,
+      0.17,
+      0.147
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "vram_used_gb": 0.158,
+      "vram_total_gb": 10.568,
+      "device_name": "NVIDIA GeForce RTX 2080 Ti"
+    }
+  },
+  {
+    "params": {
+      "size": 16384
+    },
+    "load_ms": 0.952,
+    "execution_ms": 0.193,
+    "iterations_ms": [
+      0.197,
+      0.195,
+      0.184,
+      0.193,
+      0.207,
+      0.191,
+      0.182,
+      0.184,
+      0.189,
+      0.196
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "vram_used_gb": 0.158,
+      "vram_total_gb": 10.568,
+      "device_name": "NVIDIA GeForce RTX 2080 Ti"
+    }
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "load_ms": 0.54,
+    "execution_ms": 0.034,
+    "iterations_ms": [
+      0.04,
+      0.035,
+      0.034,
+      0.034,
+      0.038,
+      0.034,
+      0.032,
+      0.032,
+      0.032,
+      0.041
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "convolve",
+      "normalize": "numpy"
+    },
+    "capabilities": {
+      "cupy": false,
+      "numpy": true
+    },
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "load_ms": 0.459,
+    "execution_ms": 0.055,
+    "iterations_ms": [
+      0.058,
+      0.054,
+      0.052,
+      0.053,
+      0.066,
+      0.058,
+      0.051,
+      0.055,
+      0.051,
+      0.055
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "convolve",
+      "normalize": "numpy"
+    },
+    "capabilities": {
+      "cupy": false,
+      "numpy": true
+    },
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "load_ms": 0.595,
+    "execution_ms": 0.041,
+    "iterations_ms": [
+      0.047,
+      0.042,
+      0.04,
+      0.042,
+      0.045,
+      0.041,
+      0.04,
+      0.039,
+      0.04,
+      0.039
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "convolve",
+      "normalize": "numpy"
+    },
+    "capabilities": {
+      "cupy": false,
+      "numpy": true
+    },
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "load_ms": 0.602,
+    "execution_ms": 0.132,
+    "iterations_ms": [
+      0.136,
+      0.133,
+      0.129,
+      0.142,
+      0.135,
+      0.132,
+      0.129,
+      0.129,
+      0.128,
+      0.129
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "convolve",
+      "normalize": "numpy"
+    },
+    "capabilities": {
+      "cupy": false,
+      "numpy": true
+    },
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  }
+]

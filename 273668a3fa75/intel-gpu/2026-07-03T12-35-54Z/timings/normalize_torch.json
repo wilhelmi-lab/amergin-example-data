@@ -1,0 +1,86 @@
+[
+  {
+    "params": {
+      "size": 1024
+    },
+    "load_ms": 0.371,
+    "execution_ms": 0.433,
+    "iterations_ms": [
+      0.463,
+      0.432,
+      0.427,
+      0.637,
+      0.45,
+      1.145,
+      0.429,
+      0.433,
+      0.43,
+      0.429
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.12.1+xpu",
+      "device": "xpu",
+      "device_name": "Intel(R) Arc(TM) A770 Graphics"
+    }
+  },
+  {
+    "params": {
+      "size": 4096
+    },
+    "load_ms": 0.447,
+    "execution_ms": 0.447,
+    "iterations_ms": [
+      0.443,
+      0.456,
+      0.447,
+      0.434,
+      0.462,
+      1.042,
+      0.431,
+      0.65,
+      0.42,
+      0.419
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.12.1+xpu",
+      "device": "xpu",
+      "device_name": "Intel(R) Arc(TM) A770 Graphics"
+    }
+  },
+  {
+    "params": {
+      "size": 16384
+    },
+    "load_ms": 0.701,
+    "execution_ms": 0.509,
+    "iterations_ms": [
+      0.493,
+      0.506,
+      0.485,
+      0.661,
+      0.509,
+      1.724,
+      0.512,
+      0.446,
+      0.547,
+      0.489
+    ],
+    "discovered_calls": [],
+    "dispatched": {},
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {
+      "torch_version": "2.12.1+xpu",
+      "device": "xpu",
+      "device_name": "Intel(R) Arc(TM) A770 Graphics"
+    }
+  }
+]

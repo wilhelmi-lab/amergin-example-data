@@ -2,66 +2,86 @@
   {
     "name": "clip_normalize/original",
     "unit": "ms",
-    "value": 0.059
+    "value": 0.076
   },
   {
     "name": "clip_normalize/original__no_fast_clip",
     "unit": "ms",
-    "value": 32.224
+    "value": 32.23
   },
   {
     "name": "moving_average/convolve",
     "unit": "ms",
-    "value": 0.021
+    "value": 0.018
   },
   {
     "name": "moving_average/cumsum",
     "unit": "ms",
-    "value": 0.016
+    "value": 0.015
   },
   {
     "name": "moving_average/original",
     "unit": "ms",
-    "value": 9.874
+    "value": 9.801
   },
   {
     "name": "normalize/numpy",
     "unit": "ms",
-    "value": 0.011
+    "value": 0.009
   },
   {
     "name": "normalize/original",
     "unit": "ms",
-    "value": 0.01
+    "value": 0.009
+  },
+  {
+    "name": "normalize/torch",
+    "unit": "ms",
+    "value": 0.447
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=numpy",
     "unit": "ms",
-    "value": 0.073
+    "value": 0.055
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=original",
     "unit": "ms",
-    "value": 0.052
+    "value": 0.054
+  },
+  {
+    "name": "normalize_smoothed/moving_average=convolve+normalize=torch",
+    "unit": "ms",
+    "value": 0.564
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=numpy",
     "unit": "ms",
-    "value": 0.04
+    "value": 0.041
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=original",
     "unit": "ms",
-    "value": 0.041
+    "value": 0.04
+  },
+  {
+    "name": "normalize_smoothed/moving_average=cumsum+normalize=torch",
+    "unit": "ms",
+    "value": 0.539
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=numpy",
     "unit": "ms",
-    "value": 20.625
+    "value": 19.411
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=original",
     "unit": "ms",
-    "value": 20.115
+    "value": 20.52
+  },
+  {
+    "name": "normalize_smoothed/moving_average=original+normalize=torch",
+    "unit": "ms",
+    "value": 19.814
   }
 ]

@@ -1,0 +1,16 @@
+{
+  "os": "Linux",
+  "os_version": "#88~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Oct 14 14:03:14 UTC 2",
+  "machine": "x86_64",
+  "python": "3.12.11",
+  "cpu": "x86_64",
+  "gpu": [
+    {
+      "lib": "torch",
+      "name": "AMD Instinct MI100",
+      "index": 0
+    }
+  ],
+  "hash": "a8738f0a8282eecc",
+  "stable_hash": "eededd9304abd971"
+}
