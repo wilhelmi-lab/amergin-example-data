@@ -2,91 +2,86 @@
   {
     "name": "clip_normalize/original",
     "unit": "ms",
-    "value": 0.055
+    "value": 0.037
   },
   {
     "name": "clip_normalize/original__no_fast_clip",
     "unit": "ms",
-    "value": 32.07
+    "value": 53.495
   },
   {
     "name": "moving_average/convolve",
     "unit": "ms",
-    "value": 0.02
+    "value": 0.017
   },
   {
     "name": "moving_average/cumsum",
     "unit": "ms",
-    "value": 0.015
+    "value": 0.018
   },
   {
     "name": "moving_average/original",
     "unit": "ms",
-    "value": 10.39
+    "value": 9.535
   },
   {
     "name": "normalize/numpy",
     "unit": "ms",
-    "value": 0.009
+    "value": 0.007
   },
   {
     "name": "normalize/original",
     "unit": "ms",
-    "value": 0.01
+    "value": 0.006
   },
   {
     "name": "normalize/torch",
     "unit": "ms",
-    "value": 0.479
-  },
-  {
-    "name": "normalize/torch__cpu",
-    "unit": "ms",
-    "value": 0.134
+    "value": 0.014
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=numpy",
     "unit": "ms",
-    "value": 0.058
+    "value": 0.031
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=original",
     "unit": "ms",
-    "value": 0.059
+    "value": 0.025
   },
   {
     "name": "normalize_smoothed/moving_average=convolve+normalize=torch",
     "unit": "ms",
-    "value": 0.546
+    "value": 0.037
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=numpy",
     "unit": "ms",
-    "value": 0.04
+    "value": 0.038
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=original",
     "unit": "ms",
-    "value": 0.042
+    "value": 0.038
   },
   {
     "name": "normalize_smoothed/moving_average=cumsum+normalize=torch",
     "unit": "ms",
-    "value": 0.538
+    "value": 0.05
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=numpy",
     "unit": "ms",
-    "value": 21.619
+    "value": 19.211
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=original",
     "unit": "ms",
-    "value": 20.118
+    "value": 19.263
   },
   {
     "name": "normalize_smoothed/moving_average=original+normalize=torch",
     "unit": "ms",
-    "value": 19.975
+    "value": 19.704
   }
 ]

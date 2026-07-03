@@ -1,0 +1,126 @@
+[
+  {
+    "params": {
+      "size": 1024,
+      "window": 8
+    },
+    "load_ms": 1.055,
+    "execution_ms": 0.021,
+    "iterations_ms": [
+      0.023,
+      0.024,
+      0.023,
+      0.021,
+      0.02,
+      0.021,
+      0.02,
+      0.02,
+      0.021,
+      0.021
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "cumsum",
+      "normalize": "numpy"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 1024,
+      "window": 64
+    },
+    "load_ms": 1.054,
+    "execution_ms": 0.021,
+    "iterations_ms": [
+      0.022,
+      0.023,
+      0.022,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.021,
+      0.021
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "cumsum",
+      "normalize": "numpy"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 8
+    },
+    "load_ms": 1.107,
+    "execution_ms": 0.038,
+    "iterations_ms": [
+      0.041,
+      0.041,
+      0.04,
+      0.038,
+      0.038,
+      0.038,
+      0.038,
+      0.038,
+      0.038,
+      0.038
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "cumsum",
+      "normalize": "numpy"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  },
+  {
+    "params": {
+      "size": 4096,
+      "window": 64
+    },
+    "load_ms": 1.104,
+    "execution_ms": 0.038,
+    "iterations_ms": [
+      0.04,
+      0.04,
+      0.039,
+      0.037,
+      0.037,
+      0.038,
+      0.037,
+      0.037,
+      0.038,
+      0.038
+    ],
+    "discovered_calls": [
+      "moving_average",
+      "normalize"
+    ],
+    "dispatched": {
+      "moving_average": "cumsum",
+      "normalize": "numpy"
+    },
+    "capabilities": {},
+    "forced_capabilities": {},
+    "impl_metadata": {}
+  }
+]
